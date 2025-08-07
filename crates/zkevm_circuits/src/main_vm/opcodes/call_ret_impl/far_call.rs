@@ -995,7 +995,7 @@ where
                 [F::ZERO; <ExecutionContextRecord<F> as CSAllocatableExt<F>>::INTERNAL_STRUCT_LEN];
             query.copy_from_slice(&inputs[2..]);
             let query: ExecutionContextRecordWitness<F> =
-                CSAllocatableExt::witness_from_set_of_values(query);
+                <ExecutionContextRecord<F> as CSAllocatableExt<F>>::witness_from_set_of_values(query);
 
             let mut guard = oracle.inner.write().expect("not poisoned");
             guard.push_callstack_witness(&query, current_depth, execute);

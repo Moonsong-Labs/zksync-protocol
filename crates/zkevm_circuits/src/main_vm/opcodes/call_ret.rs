@@ -398,7 +398,7 @@ pub(crate) fn apply_calls_and_ret<
             query.copy_from_slice(&inputs[3..]);
             use crate::base_structures::vm_state::saved_context::ExecutionContextRecordWitness;
             let query: ExecutionContextRecordWitness<F> =
-                CSAllocatableExt::witness_from_set_of_values(query);
+                <ExecutionContextRecord<F> as CSAllocatableExt<F>>::witness_from_set_of_values(query);
 
             let mut guard = oracle.inner.write().expect("not poisoned");
             guard.report_new_callstack_frame(&query, new_depth, is_call_like, execute);
