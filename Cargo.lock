@@ -1104,8 +1104,7 @@ checksum = "4a5f13b858c8d314ee3e8f639011f7ccefe71f97f96e50151fb991f267928e2c"
 [[package]]
 name = "k256"
 version = "0.13.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f6e3919bbaa2945715f0bb6d3934a173d1e9a59ac23767fbaaef277265a7411b"
+source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#9b364fdb85c1400e7d546e6bcb0b3b561942772a"
 dependencies = [
  "cfg-if",
  "ecdsa",
@@ -1353,8 +1352,7 @@ checksum = "b15813163c1d831bf4a13c3610c05c0d03b39feb07f7e09fa234dac9b15aaf39"
 [[package]]
 name = "p256"
 version = "0.13.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c9863ad85fa8f4460f9c48cb909d38a0d689dba1f6f6988a5e3e0d31071bcd4b"
+source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#9b364fdb85c1400e7d546e6bcb0b3b561942772a"
 dependencies = [
  "ecdsa",
  "elliptic-curve",
@@ -1433,8 +1431,7 @@ dependencies = [
 [[package]]
 name = "primeorder"
 version = "0.13.6"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "353e1ca18966c16d9deb1c69278edbc5f194139612772bd9537af60ac231e1e6"
+source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#9b364fdb85c1400e7d546e6bcb0b3b561942772a"
 dependencies = [
  "elliptic-curve",
 ]
