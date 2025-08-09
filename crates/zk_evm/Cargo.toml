@@ -21,7 +21,7 @@ num = { version = "0.4"}
 sha3 = { package = "sha3_ce", version = "=0.10.6" }
 sha2 = { package = "sha2_ce", version = "=0.10.6" }
 blake2 = { package = "blake2_ce", version = "=0.10.6" }
-k256 = { version = "0.11", features = ["arithmetic", "ecdsa"] }
+k256 = { git = "https://github.com/matias-gonz/elliptic-curves", branch = "chore/upgrade-sha2-dep-0.11.0", features = ["arithmetic", "ecdsa"] }
 static_assertions = "1"
 lazy_static = "1.4"
 
