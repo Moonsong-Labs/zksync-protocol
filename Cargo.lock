@@ -1102,7 +1102,7 @@ checksum = "4a5f13b858c8d314ee3e8f639011f7ccefe71f97f96e50151fb991f267928e2c"
 [[package]]
 name = "k256"
 version = "0.13.4"
-source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#9b364fdb85c1400e7d546e6bcb0b3b561942772a"
+source = "git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#fa00aa2d2d71c14322464b4898124cc3904fdeff"
 dependencies = [
  "cfg-if",
  "ecdsa",
@@ -1356,7 +1356,7 @@ checksum = "b15813163c1d831bf4a13c3610c05c0d03b39feb07f7e09fa234dac9b15aaf39"
 [[package]]
 name = "p256"
 version = "0.13.2"
-source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#9b364fdb85c1400e7d546e6bcb0b3b561942772a"
+source = "git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#fa00aa2d2d71c14322464b4898124cc3904fdeff"
 dependencies = [
  "ecdsa",
  "elliptic-curve",
@@ -1435,7 +1435,7 @@ dependencies = [
 [[package]]
 name = "primeorder"
 version = "0.13.6"
-source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#9b364fdb85c1400e7d546e6bcb0b3b561942772a"
+source = "git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#fa00aa2d2d71c14322464b4898124cc3904fdeff"
 dependencies = [
  "elliptic-curve",
 ]

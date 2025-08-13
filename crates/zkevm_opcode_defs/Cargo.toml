@@ -25,6 +25,6 @@ ethereum-types = "=0.14.1"
 sha2 = "=0.10.9"
 sha3 = "=0.10.8"
 blake2 = "0.10.*"
-k256 = { git = "https://github.com/matias-gonz/elliptic-curves", branch = "chore/upgrade-sha2-dep", features = ["arithmetic", "ecdsa"] }
-p256 = { git = "https://github.com/matias-gonz/elliptic-curves", branch = "chore/upgrade-sha2-dep", features = ["arithmetic", "ecdsa"] }
+k256 = { git = "https://github.com/Moonsong-Labs/elliptic-curves", branch = "chore/upgrade-sha2-dep", features = ["arithmetic", "ecdsa"] }
+p256 = { git = "https://github.com/Moonsong-Labs/elliptic-curves", branch = "chore/upgrade-sha2-dep", features = ["arithmetic", "ecdsa"] }
 serde = { version = "1", features = ["derive"] }
